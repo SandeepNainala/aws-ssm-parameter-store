@@ -10,4 +10,7 @@ parameters = [
   {name = "dev.user.mongo", value = "MONGO=true"},
   {name = "dev.user.redis_host", value = "redis-dev.devops71.cloud"},
   {name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.devops71.cloud:27017/users"},
+  {name = "dev.cart.redis_host", value = "redis-dev.devops71.cloud"},
+  {name = "dev.cart.catalogue_host", value = "catalogue-dev.devops71.cloud"},
+  {name = "dev.cart.catalogue_port", value = "8080"},
 ]
