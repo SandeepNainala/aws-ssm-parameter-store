@@ -27,13 +27,13 @@ parameters = [
 ]
 
 passwords = [
-  {name = "prod.payment.amqp_pass", value = "roboshop123"},
-  {name = "prod.shipping.db_pass", value = "RoboShop@1"},
+  { name = "prod.payment.amqp_pass", value = "roboshop123"},
+  { name = "prod.shipping.db_pass", value = "RoboShop@1"},
   { name = "prod.docdb.db_user", value = "roboshop" },
   { name = "prod.docdb.db_pass", value = "roboshop123456" },
   { name = "prod.rds.db_user", value = "roboshop" },
   { name = "prod.rds.db_pass", value = "roboshop123456" },
   { name = "prod.rabbitmq.rabbitmq_appuser_password", value = "roboshop123" },
-  {name = "prod.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-prod.cluster-c53nnpn07jo7.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
-  {name = "prod.user.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-prod.cluster-c53nnpn07jo7.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
+  { name = "prod.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-prod.cluster-c53nnpn07jo7.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
+  { name = "prod.user.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-prod.cluster-c53nnpn07jo7.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
 ]
