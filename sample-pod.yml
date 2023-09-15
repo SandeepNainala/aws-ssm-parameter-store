@@ -1,8 +1,17 @@
 apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: oidc-ssm
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::673904956414:role/oidc-test
+
+---
+apiVersion: v1
 kind: pod
 metadata:
   name: sample-pod
 spec:
+  serviceAccountName: oidc-ssm
   imagePullPolicy: Always
   containers:
     - name: demo
