@@ -16,3 +16,6 @@ spec:
   containers:
     - name: demo
       image: 673904956414.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store:latest
+      env:
+        - name: PARAMS
+          value: "prod.payment.cart_port prod.payment.user_port prod.payment.cart_host"
