@@ -4,7 +4,7 @@ resource "aws_ssm_parameter" "parameters" {
   type    = "String"
   value   = var.parameters[count.index].value
 
-  key_id  = "91f66eef-725c-44da-8b67-33f53d25404f"
+  key_id  = "7c53080e-6831-4ecc-8dd0-99f98673fd29"
 }
 
 #
